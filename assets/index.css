@@ -1,0 +1,50 @@
+h1 {
+    font-size: 5rem;
+}
+
+#mask {
+    position: absolute;
+    width: 100px;
+    height: 61px;
+    z-index: 20;
+}
+
+.drag-drop {
+    display: inline-block;
+    min-width: 100px;
+    touch-action: none;
+}
+
+#clown-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#clown-img {
+    position: absolute;
+    width: 200px;
+    height: 199px;
+}
+
+.dropzone {
+    position: absolute;
+    width: 105px;
+    height: 60px;
+    z-index: 1;
+    left: 40px;
+    top: 110px;
+}
+
+#person-img {
+    position: absolute;
+    width: 200px;
+    height: 188px;
+    margin-top: 15px;
+}
+
+.hidden {
+    visibility: hidden;
+}
